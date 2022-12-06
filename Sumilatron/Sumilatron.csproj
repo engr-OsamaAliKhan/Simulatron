@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.UI.Xaml.2.4.3\build\Microsoft.UI.Xaml.props" Condition="Exists('..\packages\Microsoft.UI.Xaml.2.4.3\build\Microsoft.UI.Xaml.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03214BAF-CFF3-4C62-9D19-D6999D48CE87}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sumilatron</RootNamespace>
+    <AssemblyName>Sumilatron</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AutoItX3.Assembly, Version=3.0.0.0, Culture=neutral, PublicKeyToken=a646454c8d475470, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoItX.Dotnet.3.3.14.5\lib\AutoItX3.Assembly.dll</HintPath>
+    </Reference>
+    <Reference Include="BrotliSharpLib, Version=0.3.2.0, Culture=neutral, PublicKeyToken=3f4e2a1cd615fcb7, processorArchitecture=MSIL">
+      <HintPath>..\packages\BrotliSharpLib.0.3.3\lib\net451\BrotliSharpLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=3.3.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.3.3.0\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CssParser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eyes.Sdk.Core.2.35.2\lib\net452\CssParser.dll</HintPath>
+    </Reference>
+    <Reference Include="CSSParser.ExtendedLESSParser, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CssParser.1.1\lib\CSSParser.ExtendedLESSParser.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.4.1.10331.0\lib\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyes.CodedUI.DotNet, Version=2.17.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eyes.CodedUI.2.17.2\lib\net452\Eyes.CodedUI.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyes.Common.DotNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eyes.CodedUI.2.17.2\lib\net452\Eyes.Common.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyes.Sdk.Core.DotNet, Version=2.35.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eyes.Sdk.Core.2.35.2\lib\net452\Eyes.Sdk.Core.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyes.Ufg.DotNet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eyes.Sdk.Core.2.35.2\lib\net452\Eyes.Ufg.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Eyes.Windows.DotNet, Version=2.18.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Eyes.Windows.2.18.2\lib\net452\Eyes.Windows.DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack, Version=1.11.24.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
+      <HintPath>..\packages\HtmlAgilityPack.1.11.24\lib\Net45\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Reduced, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.Reduced.1.9.1.8\lib\net20\Ionic.Zip.Reduced.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Services.TestTools.UITesting.Html, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUI.CodeFirst.1.0.3\lib\net40\Microsoft.Services.TestTools.UITesting.Html.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.QualityTools.CodedUITestFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.QualityTools.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.ExecutionCommon, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.QualityTools.ExecutionCommon.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.TestTools.UITest.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.TestTools.UITest.Extension.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITest.ExtensionUtilities, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.TestTools.UITest.ExtensionUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\CodedUIDependencies.1.0.0\lib\net46\Microsoft.VisualStudio.TestTools.UITesting.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.122.19.1, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <HintPath>..\packages\Oracle.ManagedDataAccess.19.9.0\lib\net40\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TestStack.White, Version=0.13.0.0, Culture=neutral, PublicKeyToken=2672efbf3e161801, processorArchitecture=MSIL">
+      <HintPath>..\packages\TestStack.White.0.13.3\lib\net40\TestStack.White.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAutomationTypes" />
+    <Reference Include="WebDriver, Version=2.48.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.2.48.0\lib\net40\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL">
+      <HintPath>..\packages\InputSimulator.1.0.4.0\lib\net20\WindowsInput.dll</HintPath>
+    </Reference>
+    <Reference Include="Winium.Elements.Desktop, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Winium.Elements.Desktop.0.2.0\lib\net45\Winium.Elements.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Winium.WebDriver, Version=0.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Winium.WebDriver.0.1.1\lib\net45\Winium.WebDriver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ABLHOST\HOST PHX8583-ABL\Interface.xml.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Interface.xml.xsd</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="ABLHOST\HOST PHX8583-ABL\ScriptLog.xml.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ScriptLog.xml.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ABLHOST\HOST PHX8583-ABL\TransactionScript.xml.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TransactionScript.xml.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ABLHOST\HOST PHX8583-ABL\Variables.xml.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Variables.xml.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ABLHOST\HOST PHX8583-ABL\Interface.xml.xsc">
+      <DependentUpon>Interface.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\Interface.xml.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Interface.xml.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\Interface.xml.xss">
+      <DependentUpon>Interface.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\ScriptLog.xml.xsc">
+      <DependentUpon>ScriptLog.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\ScriptLog.xml.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ScriptLog.xml.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\ScriptLog.xml.xss">
+      <DependentUpon>ScriptLog.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\TransactionScript.xml.xsc">
+      <DependentUpon>TransactionScript.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\TransactionScript.xml.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>TransactionScript.xml.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\TransactionScript.xml.xss">
+      <DependentUpon>TransactionScript.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\Variables.xml.xsc">
+      <DependentUpon>Variables.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\Variables.xml.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Variables.xml.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="ABLHOST\HOST PHX8583-ABL\Variables.xml.xss">
+      <DependentUpon>Variables.xml.xsd</DependentUpon>
+    </None>
+    <None Include="ABLHOST\logs\ABL IVR GDCI\0616\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\ABL IVR GDCI\0617\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\ABL IVR GDCI\0703\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0824\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0824\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0831\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0831\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0904\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0904\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0907\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0907\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0908\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0908\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0915\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0915\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0917\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0917\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0918\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0918\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0921\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0921\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0922\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0922\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0928\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\0928\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1001\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1001\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1002\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1002\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1005\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1005\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1006\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1006\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1007\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1007\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1008\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1008\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1009\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1009\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1012\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1012\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1013\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1013\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1014\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1014\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1016\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1016\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1019\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1019\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1020\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1020\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1021\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1021\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1022\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1022\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1023\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1023\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1026\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1026\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1027\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1027\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1028\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1028\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1029\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1030\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1102\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1103\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1105\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1111\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1112\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1113\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1113\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1114\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1115\Simulatrix.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1117\HexDump.tps" />
+    <None Include="ABLHOST\logs\HOST PHX8583-ABL\1117\Simulatrix.tps" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UBPS SIMULATOR\config.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ABLHOST\ConfigUtility.exe" />
+    <Content Include="ABLHOST\HOST PHX8583-ABL\Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ABLHOST\HOST PHX8583-ABL\Interface.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ABLHOST\HOST PHX8583-ABL\ScriptLog.xml" />
+    <Content Include="ABLHOST\HOST PHX8583-ABL\TransactionScript.xml" />
+    <Content Include="ABLHOST\HOST PHX8583-ABL\Variables.xml" />
+    <Content Include="ABLHOST\Simulatrix.exe" />
+    <Content Include="ABLHOST\xSimulatrix.exe" />
+    <Content Include="Driver\Winium.Desktop.Driver\Winium.Desktop.Driver.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UBPS SIMULATOR\UBPSSIM.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20200306.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20200824.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201016.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201019.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201029.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201030.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201102.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201105.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201112.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201113.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201114.txt" />
+    <Content Include="UBPS SIMULATOR\UBPSSIMLog20201117.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.UI.Xaml.2.4.3\build\Microsoft.UI.Xaml.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.UI.Xaml.2.4.3\build\Microsoft.UI.Xaml.props'))" />
+    <Error Condition="!Exists('..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets'))" />
+  </Target>
+  <Import Project="..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets" Condition="Exists('..\packages\AutoItX.Dotnet.3.3.14.5\build\AutoItX.Dotnet.targets')" />
+</Project>

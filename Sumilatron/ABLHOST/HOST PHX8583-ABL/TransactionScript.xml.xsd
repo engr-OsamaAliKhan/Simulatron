@@ -1,0 +1,133 @@
+<?xml version="1.0" standalone="yes"?>
+<xs:schema id="Script" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+  <xs:element name="Request">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Field" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="MessageType" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Field">
+    <xs:complexType>
+      <xs:attribute name="ID" type="xs:string" />
+      <xs:attribute name="Name" type="xs:string" />
+      <xs:attribute name="Size" type="xs:string" />
+      <xs:attribute name="Type" type="xs:string" />
+      <xs:attribute name="Action" type="xs:string" />
+      <xs:attribute name="L" type="xs:string" />
+      <xs:attribute name="Value" type="xs:string" />
+      <xs:attribute name="Variable" type="xs:string" />
+      <xs:attribute name="Description" type="xs:string" />
+      <xs:attribute name="CS" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="Field" minOccurs="0" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="MessageType" type="xs:string" />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="Script" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msdata:EnforceConstraints="False">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="Request" />
+        <xs:element ref="Field" />
+        <xs:element ref="Response" />
+        <xs:element name="Title">
+          <xs:complexType>
+            <xs:attribute name="Value" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="UserInterfaceDataColumns">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Column" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="Table" type="xs:string" />
+                  <xs:attribute name="Name" type="xs:string" />
+                  <xs:attribute name="Width" type="xs:string" />
+                  <xs:attribute name="AllowSort" type="xs:string" />
+                  <xs:attribute name="Primary" type="xs:string" />
+                  <xs:attribute name="Detail" type="xs:string" />
+                  <xs:attribute name="ReadOnly" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="VariableGroups">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="VariableGroup" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Variable" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="Name" type="xs:string" />
+                        <xs:attribute name="Size" type="xs:string" />
+                        <xs:attribute name="Type" type="xs:string" />
+                        <xs:attribute name="Value" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="Name" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="FieldValidators">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Validator" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Data" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:attribute name="Value" type="xs:string" />
+                        <xs:attribute name="Description" type="xs:string" />
+                        <xs:attribute name="SwitchVarGroup" type="xs:string" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="ID" type="xs:string" />
+                  <xs:attribute name="Name" type="xs:string" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="KeyFetch">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="Request" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="Response" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MessageHeader">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="Request" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="Response" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Transaction">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element ref="Request" minOccurs="0" maxOccurs="unbounded" />
+              <xs:element ref="Response" minOccurs="0" maxOccurs="unbounded" />
+            </xs:sequence>
+            <xs:attribute name="M" type="xs:string" />
+            <xs:attribute name="ID" type="xs:string" />
+            <xs:attribute name="Name" type="xs:string" />
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

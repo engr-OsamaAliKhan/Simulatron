@@ -1,0 +1,48 @@
+
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:40797] Connected Successfully
+ - Disconected from 192.168.6.241:40797
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:42637] Connected Successfully
+ - Disconected from 192.168.6.241:42637
+ - Waiting for connection on 192.168.40.180:12388
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:43972] Connected Successfully
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:44115] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:44285] Connected Successfully
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:44304] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0200 71 Bill Relationship Inquiry Message
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0200 72 Bill Details Inquiry Message
+ - Sent [1295] bytes in Reply Message.
+ - Received: 0220 73 Payment Advice Message.. AuthID [430120]
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Disconected from 192.168.6.241:44304
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:44399] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Disconected from 192.168.6.241:44399
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:47251] Connected Successfully
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:47290] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:48796] Connected Successfully

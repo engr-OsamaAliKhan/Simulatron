@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<Simulatrix_Interface>
+  <Title Value="Simulatrix - OMNIBUS ISO93 Simulator" />
+  <UserInterfaceDataColumns>
+    <Column Table="Variables" Name="Name" Width="120" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="Transactions" Name="Name" Width="FILL" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="VariableGroup" Name="Name" Width="FILL" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="Variables" Name="Size" Width="35" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+    <Column Table="Variables" Name="Type" Width="60" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+    <Column Table="Variables" Name="Value" Width="FILL" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="N" />
+    <Column Table="?" Name="Name" Width="140" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="Value" Width="FILL" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="Size" Width="35" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="Type" Width="60" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="CS" Width="28" AllowSort="N" Primary="N" Detail="N" ReadOnly="Y" />
+    <Column Table="?" Name="Action" Width="40" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="L" Width="18" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+    <Column Table="Transactions" Name="ID" Width="20" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="ID" Width="45" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="D" Width="15" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="&gt;" Width="15" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="S" Width="15" AllowSort="N" Primary="Y" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="Description" Width="100" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+    <Column Table="?" Name="Variable" Width="100" AllowSort="N" Primary="N" Detail="Y" ReadOnly="Y" />
+  </UserInterfaceDataColumns>
+</Simulatrix_Interface>

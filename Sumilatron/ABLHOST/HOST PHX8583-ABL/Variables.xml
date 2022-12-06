@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<Simulatrix_Variables>
+  <VariableGroup Name="ACQ Variables">
+    <Variable Name="ResponseCode" Size="2" Type="N" Value="02" />
+    <Variable Name="AvailableBalance" Size="12" Type="N" Value="000000012345" />
+    <Variable Name="ActualBalance" Size="12" Type="N" Value="000000012345" />
+    <Variable Name="Pos Sett Data" Size="12" Type="AN" Value="           " />
+  </VariableGroup>
+  <VariableGroup Name="ISS Variables">
+    <Variable Name="ResponseCode" Size="2" Type="N" Value="00" />
+    <Variable Name="AvailableBalance" Size="12" Type="N" Value="000000012345" />
+    <Variable Name="ActualBalance" Size="12" Type="N" Value="000000012345" />
+  </VariableGroup>
+</Simulatrix_Variables>

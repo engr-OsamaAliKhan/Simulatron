@@ -1,0 +1,6 @@
+
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:38193] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Disconected from 192.168.6.241:38193

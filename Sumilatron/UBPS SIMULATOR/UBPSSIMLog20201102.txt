@@ -1,0 +1,21 @@
+
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:54068] Connected Successfully
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:55097] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.

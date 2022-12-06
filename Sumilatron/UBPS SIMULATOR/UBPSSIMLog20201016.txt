@@ -1,0 +1,408 @@
+
+ - Waiting for connection on 192.168.40.180:12388
+ - Socket not connected!
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:36716] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Disconected from 192.168.6.241:36716
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:40030] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Waiting for connection on 192.168.40.180:12388
+ - Client [192.168.6.241:40470] Connected Successfully
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0200 72 Bill Details Inquiry Message
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0200 72 Bill Details Inquiry Message
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0200 72 Bill Details Inquiry Message
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0200 72 Bill Details Inquiry Message
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: 0220 73 Payment Advice Message.. AuthID [429739]
+ - Sent [1295] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
+ - Received: ARE_YOU_ALIVE
+ - Sent [15] bytes in Reply Message.
